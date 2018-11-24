@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../static/bootstrap.css" th:href="@{/bootstrap.css}">
+    <title>Hotel Booking App </title>
+</head>
+<body>
+<div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Booking Demo</a>
+        <ul class="navbar-nav mr-auto">
+        </ul>
+        <span class="navbar-text" style="margin-right: 10px;" th:text="'Signed in by ' + ${username}">Signed in by Anonymous</span>
+    </nav>
+</div>
+<script th:href="@{/bootstrap.js}" href="../static/bootstrap.js"></script>
+</body>
+</html>
